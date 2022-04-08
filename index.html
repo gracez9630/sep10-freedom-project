@@ -47,11 +47,15 @@
           </div>
         </nav>
 
-          <img src="img/camera.jpg" class="image">
-        <div class="context">
-          <h2 id="context flip">Context</h2>
-          <p id="panel">Photography is the process of recording an image, photograph, or a lightsemstove film. <br>With it, we can keep and perserve the membories of our loved one.<br>It was invented in 1826 or 1827, where the first photograph was made, and was made by Nicéphore Niépce, Frederick Scott Archer, and Felix Benedict Herzog.</br> Photography is important because it lets us document something and keep it forever while also expressing our ideas for others to see.<br> Photography and taking images is a universal language that speakes to the heart. </p>
-        </div>
+        <img src="img/camera.jpg" class="image">
+        <!--<div class="context">-->
+        <!--  <h2 id="context flip">Context</h2>-->
+        <!--  <p id="panel">Photography is the process of recording an image, photograph, or a lightsemstove film. <br>With it, we can keep and perserve the membories of our loved one.<br>It was invented in 1826 or 1827, where the first photograph was made, and was made by Nicéphore Niépce, Frederick Scott Archer, and Felix Benedict Herzog.</br> Photography is important because it lets us document something and keep it forever while also expressing our ideas for others to see.<br> Photography and taking images is a universal language that speakes to the heart. </p>-->
+        <!--</div>-->
+
+        <div id="flip" class="context">Context</div>
+        <div id="panel">Photography is the process of recording an image, photograph, or a lightsemstove film. <br>With it, we can keep and perserve the membories of our loved one.<br>It was invented in 1826 or 1827, where the first photograph was made, and was made by Nicéphore Niépce, Frederick Scott Archer, and Felix Benedict Herzog.</br> Photography is important because it lets us document something and keep it forever while also expressing our ideas for others to see.<br> Photography and taking images is a universal language that speakes to the heart.</div>
+
 
         <div class="container">
             <div class="row">
@@ -79,9 +83,12 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            // JS
-
+        <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideToggle("slow");
+          });
+        });
         </script>
     </body>
 </html>
