@@ -1,6 +1,9 @@
 .context {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    background-color: #FFFAF0;
+    border: solid 2px #808080;
 
 }
 
@@ -14,4 +17,15 @@
 
 #parts {
     font-family: "Times New Roman", Times, serif;
+}
+
+#panel {
+  padding: 5px;
+  text-align: center;
+  background-color: #FFFAF0;
+  border: solid 2px #808080;
+}
+
+#panel {
+  padding: 50px;
 }
