@@ -9,6 +9,7 @@
 
 .image {
     width: 100%;
+    margin-bottom: 25px;
 }
 
 #parts {
@@ -27,11 +28,11 @@
   display:none;
   width: 50%;
   margin: auto;
+
 }
 
 #flip {
     width: 50%;
     font-size: 25px;
     margin: auto;
-    /*margin: 10px 10px 10px 10px;*/
 }
