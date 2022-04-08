@@ -1,5 +1,7 @@
 .context {
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
+
 }
 
 .col {
@@ -8,4 +10,8 @@
 
 .image {
     width: 100%;
+}
+
+#parts {
+    font-family: "Times New Roman", Times, serif;
 }
