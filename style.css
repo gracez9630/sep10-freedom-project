@@ -1,3 +1,5 @@
+
+
 .context {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
@@ -19,7 +21,7 @@
 #panel, #flip {
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
+  background-color: #F5FFFA;
   border: solid 1px #c3c3c3;
 }
 
