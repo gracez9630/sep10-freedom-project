@@ -21,8 +21,9 @@
 #panel, #flip {
   padding: 5px;
   text-align: center;
-  background-color: #F5FFFA;
-  border: solid 1px #c3c3c3;
+  background-color:#F5FFFA;
+  border: solid 2px #708090;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #panel {
