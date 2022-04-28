@@ -29,13 +29,13 @@
 #panel {
   padding: 50px;
   display:none;
-  width: 50%;
+  width: 70%;
   margin: auto;
 
 }
 
 #flip {
-    width: 50%;
+    width: 70%;
     font-size: 25px;
     margin: auto;
 }
@@ -44,6 +44,8 @@
     margin-top: 20px;
 }
 
+
 #parts{
     background-color:#FFB6C1; 
 }
+
