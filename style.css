@@ -67,3 +67,8 @@ h5 {
 body {
     background-image: linear-gradient( to bottom right, rgba(255,0,0,0), #789cde);
 }
+
+#add-ons {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
