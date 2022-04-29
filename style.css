@@ -21,7 +21,7 @@
 #panel, #flip {
   padding: 5px;
   text-align: center;
-  background-color:#F5FFFA;
+  background-color:#b8c7de;
   border: solid 2px #708090;
   font-family: "Times New Roman", Times, serif;
 }
@@ -47,7 +47,7 @@
 
 #parts{
     margin-top: 20px;
-    background-color:#E0FFFF ;
+    background-color:#d1dbed ;
     border: solid 3px #708090;
 }
 
@@ -64,5 +64,5 @@ h5 {
 }
 
 body {
-    background-color: #EFF7FF;
+    background-image: linear-gradient( to bottom right, rgba(255,0,0,0), #789cde);
 }
