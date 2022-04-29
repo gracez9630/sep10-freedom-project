@@ -2,7 +2,7 @@
 
 .context {
     text-align: center;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 .col {
@@ -15,7 +15,7 @@
 }
 
 #parts {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 #panel, #flip {
@@ -23,7 +23,7 @@
   text-align: center;
   background-color:#F5FFFA;
   border: solid 2px #708090;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 #panel {
